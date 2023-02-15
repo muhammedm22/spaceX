@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "211CA115-F311-4803-9A60-753F0A12EDDA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5342A5FA-31A3-4F47-BDA2-3834D8C1F028"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/Services/LaunchesProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "baseURL"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "618D8E95-B98C-4D24-A8C3-9397C95FB02A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/SpaceXApp-eywxozvijrmkovgikpxuheguukdy/SourcePackages/checkouts/Moya/Sources/CombineMoya/MoyaProvider+Combine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "requestPublisher(_:callbackQueue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "618D8E95-B98C-4D24-A8C3-9397C95FB02A - 7bf7a78f63a5c4f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.AnySubscriber&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; Swift.Optional&lt;Moya.Cancellable&gt; in Moya.MoyaProvider.requestPublisher(_: &#x3c4;_0_0, callbackQueue: Swift.Optional&lt;__C.OS_dispatch_queue&gt;) -&gt; Combine.AnyPublisher&lt;Moya.Response, Moya.MoyaError&gt;"
+                  moduleName = "SpaceXApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MohamedMahmoud/Library/Developer/Xcode/DerivedData/SpaceXApp-eywxozvijrmkovgikpxuheguukdy/SourcePackages/checkouts/Moya/Sources/CombineMoya/MoyaProvider+Combine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "618D8E95-B98C-4D24-A8C3-9397C95FB02A - ea4357edcc5a5299"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in closure #1 (Combine.AnySubscriber&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; Swift.Optional&lt;Moya.Cancellable&gt; in Moya.MoyaProvider.requestPublisher(_: &#x3c4;_0_0, callbackQueue: Swift.Optional&lt;__C.OS_dispatch_queue&gt;) -&gt; Combine.AnyPublisher&lt;Moya.Response, Moya.MoyaError&gt;"
+                  moduleName = "SpaceXApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MohamedMahmoud/Library/Developer/Xcode/DerivedData/SpaceXApp-eywxozvijrmkovgikpxuheguukdy/SourcePackages/checkouts/Moya/Sources/CombineMoya/MoyaProvider+Combine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "510CF0C5-4C37-4E5B-A495-A9D8B1822BB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/SpaceXApp-eywxozvijrmkovgikpxuheguukdy/SourcePackages/checkouts/Moya/Sources/CombineMoya/MoyaProvider+Combine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "requestPublisher(_:callbackQueue:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5B05B53-8E0B-4A35-888E-778FC5F3DEB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/SpaceXApp-eywxozvijrmkovgikpxuheguukdy/SourcePackages/checkouts/Moya/Sources/CombineMoya/MoyaProvider+Combine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "requestPublisher(_:callbackQueue:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8F9AAB1-B401-49AF-8DE2-E1F736B8B8F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/Views/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "setLaunchesObserver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29C51A92-1B16-4E5D-AF53-7B3DBED0AB39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "filteredData(launches:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "722DF9DC-1538-499E-BEF4-276A22D269CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/Coordinator/HomeCoordinator/HomeCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "navigateToLaunchDetails(rocket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFBFDA4B-1B2E-4EEA-B7EC-09417F9CB312"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/Views/Details/RocketDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "set(rocket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8160325E-6590-45B0-8A08-3A3E6097E82A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/Views/Details/RocketDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "setObserver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC33F59C-4CBD-4011-961D-88F03EC4B5BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXApp/ViewModels/RocketDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getRocketDetails(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
