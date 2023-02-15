@@ -12,7 +12,7 @@ protocol HomeViewModelProtocol {
     func didSelectRocket(index: Int)
 }
 final class HomeViewModel: HomeViewModelProtocol {
-    
+    // Constants used in module
     private struct Constants {
         let dateFormat: String = "yyyy-MM-dd'T'HH:mm:ssZ"
     }
@@ -24,17 +24,18 @@ final class HomeViewModel: HomeViewModelProtocol {
     init(service: LaunchesServiceProtocol = LaunchesService(), coordinator: HomeCoordinator) {
         self.service = service
         self.coordiator = coordinator
-        callAPI()
+        getLaunches()
     }
     func didSelectRocket(index: Int) {
         guard let coordinator = coordiator else { return }
         coordinator.navigateToLaunchDetails(rocket: self.launches[index])
     }
+    // deinit to make sure no leaks
     deinit {
         print("view model has beed deinit")
     }
-    
-    func callAPI() {
+    // Get All Launches
+    func getLaunches() {
         self.service?.getLaunhces()
             .sink(receiveCompletion: { completion in
                 // handle error when there are no data
@@ -42,7 +43,7 @@ final class HomeViewModel: HomeViewModelProtocol {
                 self?.launches = self?.filteredData(launches: launches) ?? []
             }).store(in: &bags)
     }
-    
+    // Filter data by success, and last three years from now.
     private func filteredData(launches: [Launches]) -> [Launches] {
         let filterBySuccess = launches.filter({ $0.success ?? false == true })
         let filterByDate = filterBySuccess.filter({

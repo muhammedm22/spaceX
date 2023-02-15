@@ -9,7 +9,7 @@ import UIKit
 import Combine
     
 class HomeViewController: UIViewController, Storyboarded {
-    
+    // MARK: - Outlets
     @IBOutlet weak var screenTitleLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var bigLuanchTitleLabel: UILabel!
@@ -26,11 +26,11 @@ class HomeViewController: UIViewController, Storyboarded {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var yearLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
-    
+    // MARK: - Properties
     private var viewModel: HomeViewModel?
     private var bag = Set<AnyCancellable>()
     private weak var coordinator: Coordinator?
-
+    // MARK: - ViewController Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -41,7 +41,7 @@ class HomeViewController: UIViewController, Storyboarded {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
-
+    // MARK: - Methods
     private func setUI() {
         setCollectionView()
         setCardView()
@@ -89,7 +89,7 @@ class HomeViewController: UIViewController, Storyboarded {
         self.viewModel = HomeViewModel(coordinator: coordinator)
     }
 }
-
+// MARK: - HomeViewContoller Extension for CollectionView Datasource, Delegate
 extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LaunchesCollectionViewCell", for: indexPath) as? LaunchesCollectionViewCell
@@ -105,6 +105,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         self.viewModel?.didSelectRocket(index: indexPath.row)
     }
 }
+// MARK: - HomeViewContoller Extension for CollectionView DelegateFlowLayout
 extension HomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = UIScreen.main.bounds.width * 0.5

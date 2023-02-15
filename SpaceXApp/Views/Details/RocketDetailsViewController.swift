@@ -10,7 +10,7 @@ import Combine
 import SDWebImage
 
 class RocketDetailsViewController: UIViewController, Storyboarded {
-
+    // MARK: - Outlets
     @IBOutlet weak var rocketImage: UIImageView!
     @IBOutlet weak var detailsContainerView: UIView!
     @IBOutlet weak var detailsLabel: UILabel!
@@ -19,8 +19,8 @@ class RocketDetailsViewController: UIViewController, Storyboarded {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var readmoreBtn: UIButton!
     @IBOutlet weak var shareBtn: UIButton!
-    
     @IBOutlet weak var detailsTextView: UITextView!
+    // MARK: - Properties
     private var rocket: Launches?
     private var viewModel: RocketDetailsViewModel?
     private var bag = Set<AnyCancellable>()
@@ -29,13 +29,14 @@ class RocketDetailsViewController: UIViewController, Storyboarded {
         self.rocket = rocket
         viewModel = RocketDetailsViewModel(rocketId: rocket.id ?? "")
     }
+    // MARK: - ViewController Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
         // Do any additional setup after loading the view.
         setObserver()
     }
-    
+    // MARK: - Methods
     private func setUI() {
         setFonts()
         setDetailsContainerView()
